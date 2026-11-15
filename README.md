@@ -1,5 +1,7 @@
 # 🎩 Новинки фокусов в Telegram
 
+[Мировой каталог магазинов фокусов](MAGIC_SHOPS.md)
+
 Python собирает новые позиции из каталогов TCC Magic, Ellusionist, Alakazam Magic, Tannen's, Merchant of Magic, Magic Dream, Wizard Magic Shop, J&B Magic, 52Magic, IARVEL MAGIC и PITATA Magic. GitHub Actions запускает сбор ежедневно около 09:17 по Москве. Выпуск публикуется на третий календарный день после предыдущего, когда есть свежие карточки. Один выпуск состоит из максимум семи сообщений с общей датой.
 
 ## 1. Канал и бот
