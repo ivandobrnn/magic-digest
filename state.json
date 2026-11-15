@@ -36,7 +36,8 @@
       "url": "https://tccmagic.com/products/floating-drop",
       "image": "https://tccmagic.com/cdn/shop/files/DSC00673-1_1_1200x1200.png?v=1794273296",
       "video": "https://www.youtube.com/watch?v=VljJceDLzLo",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 6
     },
     "final chapter": {
       "title": "Final Chapter by Ethan Yip & Johnny Yip ｜ ILLUWIZARD",
@@ -485,9 +486,5 @@
     "https://ellusionist.com/products/outside-the-box": "outside the box",
     "https://ellusionist.com/products/below": "below"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "floating drop",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
