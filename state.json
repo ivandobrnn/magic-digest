@@ -484,7 +484,8 @@
       "url": "https://alakazam.co.uk/products/most-incredible-magic-show-set-by-fantasma-magic",
       "image": "https://alakazam.co.uk/cdn/shop/files/81497-full.png?v=1794588383",
       "video": "https://vimeo.com/1246665854",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 15
     },
     "dropout": {
       "title": "Dropout by Jamie Daws",
@@ -2103,9 +2104,5 @@
     "https://pitata.cn/products/pitata-smart-clipboard-1": "pitata smart clipboard",
     "https://pitata.cn/products/pitata-watch-pocket-edition": "pitata watch pocket edition"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "most incredible magic show set",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
