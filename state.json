@@ -505,7 +505,8 @@
       "url": "https://alakazam.co.uk/products/the-white-doors-by-luca-volpe",
       "image": "https://alakazam.co.uk/cdn/shop/files/81441-full.png?v=1794584811",
       "video": "https://vimeo.com/1246650673",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 22
     },
     "mint condition": {
       "title": "Mint Condition (Red) by Joel Dickinson",
@@ -2133,9 +2134,5 @@
     "https://alternateworldsmagic.com/products/andys-toy-chest-puzzle-box-by-fantasma-magic": "andy s toy chest puzzle box",
     "https://alternateworldsmagic.com/products/stop-light-paddle-brown-by-gentlemens-magic": "stop light paddle brown"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "the white doors",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
