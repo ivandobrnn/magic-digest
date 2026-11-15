@@ -665,7 +665,8 @@
       "url": "https://www.tannens.com/products/six-pro",
       "image": "https://www.tannens.com/cdn/shop/files/six-pro-tannens_1200x1200.jpg?v=1794409498",
       "video": "",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 16
     },
     "iarvel keychain": {
       "title": "Iarvel Keychain",
@@ -2104,9 +2105,5 @@
     "https://pitata.cn/products/pitata-smart-clipboard-1": "pitata smart clipboard",
     "https://pitata.cn/products/pitata-watch-pocket-edition": "pitata watch pocket edition"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "six pro",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
