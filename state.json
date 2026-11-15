@@ -1,1 +1,486 @@
-{}
+{
+  "items": {
+    "tcc vip membership": {
+      "title": "TCC VIP Membership",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/tccvip",
+      "image": "https://tccmagic.com/cdn/shop/files/VIP_h1_1200x1200.jpg?v=1718786423",
+      "video": "",
+      "first_seen": "2026-11-16"
+    },
+    "tcc thank you flash sale until november 15th": {
+      "title": "TCC Thank You Flash Sale - Until November 15th",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/tcc-thank-you-flash-sale-until-november-15th",
+      "image": "https://tccmagic.com/cdn/shop/files/flashsale-202609_1200x1200.jpg?v=1788512019",
+      "video": "",
+      "first_seen": "2026-11-16"
+    },
+    "melero deck": {
+      "title": "Melero Deck by Ernesto Melero & TCC Magic",
+      "category": "Карточные фокусы",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/melero-deck-by-ernesto-melero-tcc-magic",
+      "image": "https://tccmagic.com/cdn/shop/files/DSC00669_1200x1200.png?v=1794273298",
+      "video": "https://www.youtube.com/watch?v=T48Rnp2HFT8",
+      "first_seen": "2026-11-16"
+    },
+    "floating drop": {
+      "title": "Floating Drop by Allen Magic & Magic City",
+      "category": "Сценические иллюзии",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/floating-drop",
+      "image": "https://tccmagic.com/cdn/shop/files/DSC00673-1_1_1200x1200.png?v=1794273296",
+      "video": "https://www.youtube.com/watch?v=VljJceDLzLo",
+      "first_seen": "2026-11-16"
+    },
+    "final chapter": {
+      "title": "Final Chapter by Ethan Yip & Johnny Yip ｜ ILLUWIZARD",
+      "category": "Обучающие материалы",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/final-chapter",
+      "image": "https://tccmagic.com/cdn/shop/files/FCJ00510_1_1200x1200.png?v=1794200815",
+      "video": "https://www.youtube.com/watch?v=3h4PgIyGe9o",
+      "first_seen": "2026-11-16"
+    },
+    "lumos candle": {
+      "title": "Lumos Candle by Anson Lee & Hypothesis Magic",
+      "category": "Электроника и гаджеты",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/lumos-candle-by-anson-lee",
+      "image": "https://tccmagic.com/cdn/shop/files/DSC00318_1_1200x1200.png?v=1793345502",
+      "video": "https://www.youtube.com/watch?v=mkpicSvvp_8",
+      "first_seen": "2026-11-16"
+    },
+    "the spirit deck": {
+      "title": "The Spirit Deck by Birdy Cai, Jay Wang, and TCC Magic",
+      "category": "Карточные фокусы",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/the-spirit-deck-by-birdy-cai-jay-wang-and-tcc-magic",
+      "image": "https://tccmagic.com/cdn/shop/files/DSC04767_1200x1200.png?v=1792122267",
+      "video": "https://www.youtube.com/watch?v=l1sR0IP4EXk",
+      "first_seen": "2026-11-16"
+    },
+    "lightweave": {
+      "title": "Lightweave by Magic Cloud and TCC Magic",
+      "category": "Карточные фокусы",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/lightweave-by-magic-cloud-and-tcc-magic",
+      "image": "https://tccmagic.com/cdn/shop/files/DSC04771_1200x1200.png?v=1792122267",
+      "video": "https://www.youtube.com/watch?v=0MBshyDRPdI",
+      "first_seen": "2026-11-16"
+    },
+    "stainless steel linking rings": {
+      "title": "Stainless Steel Linking Rings by TCC Presents (3 Colors)",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/stainless-steel-linking-rings-by-tcc-3-colors",
+      "image": "https://tccmagic.com/cdn/shop/files/FCJ00284_1200x1200.png?v=1792122267",
+      "video": "",
+      "first_seen": "2026-11-16"
+    },
+    "luminous": {
+      "title": "LUMINOUS by J.F Zeng & Sam Li | Jay's Wonder Series (Instant Download)",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/luminous-by-j-f-zeng-sam-li-jays-wonder-series-instant-download",
+      "image": "https://tccmagic.com/cdn/shop/files/2026-10-16_060225_1_1200x1200.jpg?v=1792102397",
+      "video": "https://www.youtube.com/watch?v=6sIkejNVMNU",
+      "first_seen": "2026-11-16"
+    },
+    "vanicoin": {
+      "title": "VaniCoin by Enoch | Jay's Wonder Series (Instant Download)",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/vanicoin-by-enoch-jays-wonder-series-instant-download",
+      "image": "https://tccmagic.com/cdn/shop/files/2026-10-16063044_1_1200x1200.jpg?v=1792104874",
+      "video": "https://www.youtube.com/watch?v=c7bIL40riK8",
+      "first_seen": "2026-11-16"
+    },
+    "coin centric": {
+      "title": "Coin Centric by Tenyo Magic (2027)",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/coin-centric-by-tenyo-magic-2027",
+      "image": "https://tccmagic.com/cdn/shop/files/money_machine-694x1024-_-webp_1_1200x1200.png?v=1791440678",
+      "video": "https://www.youtube.com/watch?v=1vkC3WM9YrU",
+      "first_seen": "2026-11-16"
+    },
+    "transpa vision": {
+      "title": "Transpa Vision by Tenyo Magic (2027)",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/transpa-vision-by-tenyo",
+      "image": "https://tccmagic.com/cdn/shop/files/hivision_card-695x1024-_-webp_1_1200x1200.png?v=1791440678",
+      "video": "https://www.youtube.com/watch?v=9ISfrDRCtkI",
+      "first_seen": "2026-11-16"
+    },
+    "chameleon dice": {
+      "title": "Chameleon Dice by Tenyo Magic (2027)",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/chameleon-dice-by-tenyo-magic-2027",
+      "image": "https://tccmagic.com/cdn/shop/files/fukanou_dice-695x1024-_-webp_1_1200x1200.png?v=1791441180",
+      "video": "https://www.youtube.com/watch?v=i3XFtbE2kcc",
+      "first_seen": "2026-11-16"
+    },
+    "cristal": {
+      "title": "Cristal by Gonzalo Albiñana & Crazy Jokers",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/cristal",
+      "image": "https://tccmagic.com/cdn/shop/files/FCJ09219_1200x1200.png?v=1789972554",
+      "video": "https://www.youtube.com/watch?v=b9bkbqnx0wk",
+      "first_seen": "2026-11-16"
+    },
+    "anything bag": {
+      "title": "Anything Bag by Conan Liu & Royce Luo",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/anything-bag-by-conan-liu-royce-luo",
+      "image": "https://tccmagic.com/cdn/shop/files/DSC04758_1_1200x1200.png?v=1792122267",
+      "video": "https://www.youtube.com/watch?v=lKtVyZ8zx7A",
+      "first_seen": "2026-11-16"
+    },
+    "magneticubes": {
+      "title": "MagnetiCubes by Ivo David Oliveira & TCC Magic",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/magneticubes-by-david-distantlands-studio",
+      "image": "https://tccmagic.com/cdn/shop/files/FCJ09213_1200x1200.png?v=1789108251",
+      "video": "https://www.youtube.com/watch?v=x8P8I-Q1UCI",
+      "first_seen": "2026-11-16"
+    },
+    "no way to peek": {
+      "title": "No Way To Peek by Magic's Express",
+      "category": "Электроника и гаджеты",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/no-way-to-peek-by-magics-nbsp-express",
+      "image": "https://tccmagic.com/cdn/shop/files/FCJ09654_1200x1200.png?v=1789972554",
+      "video": "https://www.youtube.com/watch?v=KG0pGBcrJP0",
+      "first_seen": "2026-11-16"
+    },
+    "baby deck": {
+      "title": "Baby Deck by Dan Harlan",
+      "category": "Карточные фокусы",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/baby-deck-by-dan-harlan",
+      "image": "https://tccmagic.com/cdn/shop/files/DSC09273_2_1200x1200.png?v=1788829569",
+      "video": "https://www.youtube.com/watch?v=AfNU57aqsOA",
+      "first_seen": "2026-11-16"
+    },
+    "coin fantasy": {
+      "title": "Coin Fantasy by Magic Class & TCC Magic",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/coin-fantasy-by-magic-class-tcc-magic",
+      "image": "https://tccmagic.com/cdn/shop/files/DSC08629_fdf2d4ac-6b09-4b03-b2b2-5f835f39fe8f_1200x1200.png?v=1792224174",
+      "video": "https://www.youtube.com/watch?v=qtlVzJMLzJQ",
+      "first_seen": "2026-11-16"
+    },
+    "chinese 3 fly c3f": {
+      "title": "Chinese 3 Fly (C3F) by Jimmy Fan & Artisan Coin",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/chinese-3-fly",
+      "image": "https://tccmagic.com/cdn/shop/files/FCJ09642_1200x1200.png?v=1789972553",
+      "video": "https://www.youtube.com/watch?v=mbt7w1bWJjA",
+      "first_seen": "2026-11-16"
+    },
+    "eclipse box": {
+      "title": "Eclipse Box by Latko & Artisan Coin",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/eclipse-box-by-latko",
+      "image": "https://tccmagic.com/cdn/shop/files/FCJ09660_1200x1200.png?v=1789974778",
+      "video": "https://www.youtube.com/watch?v=6j4eKLenmFw",
+      "first_seen": "2026-11-16"
+    },
+    "mystic tuner": {
+      "title": "Mystic Tuner by Tatta & Artisan Coin",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/mystic-tuner-by-tatta",
+      "image": "https://tccmagic.com/cdn/shop/files/FCJ09649_1200x1200.png?v=1789972554",
+      "video": "https://www.youtube.com/watch?v=PXyo7wWKz5U",
+      "first_seen": "2026-11-16"
+    },
+    "the holy grail": {
+      "title": "The Holy Grail by Jimmy Fan & Artisan Coin",
+      "category": "Close-up и реквизит",
+      "source": "TCC Magic",
+      "url": "https://tccmagic.com/products/holy-grail",
+      "image": "https://tccmagic.com/cdn/shop/files/FCJ09644_1200x1200.png?v=1789972554",
+      "video": "https://www.youtube.com/watch?v=nWRGJpMRMZQ",
+      "first_seen": "2026-11-16"
+    },
+    "magic stream annual pass": {
+      "title": "Magic Stream Annual Pass",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/official-magic-stream-subscription",
+      "image": "https://ellusionist.com/cdn/shop/files/magic-stream-VIMEO-THUMB.jpg?v=1762458049&width=2048",
+      "video": "https://vimeo.com/400709452",
+      "first_seen": "2026-11-16"
+    },
+    "mountebank": {
+      "title": "Mountebank",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/mountebank",
+      "image": "https://ellusionist.com/cdn/shop/files/796669_757654.webp?v=1793033548&width=2048",
+      "video": "https://vimeo.com/1239561154",
+      "first_seen": "2026-11-16"
+    },
+    "psychic survival kit": {
+      "title": "Psychic Survival Kit",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/psychic-survival-kit",
+      "image": "https://ellusionist.com/cdn/shop/files/fa587228428d0a8043776f8a9a785e74_original.avif?v=1789548203&width=2048",
+      "video": "https://vimeo.com/1227019156",
+      "first_seen": "2026-11-16"
+    },
+    "mozaic": {
+      "title": "Mozaic",
+      "category": "Ментализм",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/mozaic",
+      "image": "https://ellusionist.com/cdn/shop/files/mozaic-ellusionist-08.jpg?v=1782312555&width=2048",
+      "video": "https://vimeo.com/1204203372",
+      "first_seen": "2026-11-16"
+    },
+    "hydra pro": {
+      "title": "Hydra Pro",
+      "category": "Магические приложения",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/hydra-pro-by-shameer-salim",
+      "image": "https://ellusionist.com/cdn/shop/files/03.jpg?v=1778518229&width=2048",
+      "video": "",
+      "first_seen": "2026-11-16"
+    },
+    "levitas 2 0": {
+      "title": "Levitas 2.0",
+      "category": "Карточные фокусы",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/levitas",
+      "image": "https://ellusionist.com/cdn/shop/files/80366-alt1.png?v=1778515283&width=2048",
+      "video": "https://vimeo.com/1191226700",
+      "first_seen": "2026-11-16"
+    },
+    "deadline pro": {
+      "title": "Deadline Pro",
+      "category": "Магические приложения",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/deadline-pro",
+      "image": "https://ellusionist.com/cdn/shop/files/deadline_vimeo_thumb_pro.jpg?v=1777647545&width=2048",
+      "video": "https://vimeo.com/1188403686",
+      "first_seen": "2026-11-16"
+    },
+    "air vanish": {
+      "title": "Air Vanish",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/air-vanish",
+      "image": "https://ellusionist.com/cdn/shop/files/hero.jpg?v=1776259619&width=2048",
+      "video": "https://vimeo.com/1183030959",
+      "first_seen": "2026-11-16"
+    },
+    "the jungle book test": {
+      "title": "The Jungle Book Test",
+      "category": "Обучающие материалы",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/jungle-book",
+      "image": "https://ellusionist.com/cdn/shop/files/01-front.jpg?v=1775481285&width=2048",
+      "video": "https://vimeo.com/1162511390",
+      "first_seen": "2026-11-16"
+    },
+    "emoji trick": {
+      "title": "Emoji Trick",
+      "category": "Обучающие материалы",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/emoji-book",
+      "image": "https://ellusionist.com/cdn/shop/files/03-emoji.jpg?v=1775481263&width=2048",
+      "video": "https://vimeo.com/1162511312",
+      "first_seen": "2026-11-16"
+    },
+    "venom pro": {
+      "title": "Venom Pro",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/venom-pro",
+      "image": "https://ellusionist.com/cdn/shop/files/Official_Venom_Pro.png?v=1761666192&width=2048",
+      "video": "https://vimeo.com/1131367157",
+      "first_seen": "2026-11-16"
+    },
+    "h2o": {
+      "title": "H2O",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/h2o-by-juan-colas",
+      "image": "https://ellusionist.com/cdn/shop/files/H2O-thumb.jpg?v=1775480722&width=2048",
+      "video": "https://vimeo.com/1143505480",
+      "first_seen": "2026-11-16"
+    },
+    "the ultimate collection of self working card tricks": {
+      "title": "The Ultimate Collection of Self-Working Card Tricks",
+      "category": "Карточные фокусы",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/the-ultimate-collection-of-self-working-card-tricks",
+      "image": "https://ellusionist.com/cdn/shop/files/Mock-Up-2-Self-Working-Card-Tricks-Book.jpg?v=1765381002&width=2048",
+      "video": "https://vimeo.com/1145666569",
+      "first_seen": "2026-11-16"
+    },
+    "crazy sam s mind": {
+      "title": "Crazy Sam's Mind",
+      "category": "Карточные фокусы",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/crazy-sams-mind",
+      "image": "https://ellusionist.com/cdn/shop/files/vlcsnap-2025-10-07-13h48m52s979.png?v=1759859501&width=2048",
+      "video": "https://vimeo.com/1125270727",
+      "first_seen": "2026-11-16"
+    },
+    "crazy sam s finger ring": {
+      "title": "Crazy Sam's Finger Ring",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/crazy-sams-finger-ring-1",
+      "image": "https://ellusionist.com/cdn/shop/files/Page4.jpg?v=1759864214&width=2048",
+      "video": "https://vimeo.com/1125293175",
+      "first_seen": "2026-11-16"
+    },
+    "shockwave": {
+      "title": "Shockwave",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/shock-wave",
+      "image": "https://ellusionist.com/cdn/shop/files/ShockwaveReaction1.png?v=1759947779&width=2048",
+      "video": "https://vimeo.com/1121293559",
+      "first_seen": "2026-11-16"
+    },
+    "cohort casino marked playing cards": {
+      "title": "Cohort Casino Marked Playing Cards",
+      "category": "Карточные фокусы",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/cohort-casino",
+      "image": "https://ellusionist.com/cdn/shop/files/NN78711.jpg?v=1758878433&width=2048",
+      "video": "",
+      "first_seen": "2026-11-16"
+    },
+    "lava pad": {
+      "title": "Lava Pad",
+      "category": "Магические приложения",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/lava-pad",
+      "image": "https://ellusionist.com/cdn/shop/files/lavapad-background.jpg?v=1762459388&width=2048",
+      "video": "https://vimeo.com/1098207375",
+      "first_seen": "2026-11-16"
+    },
+    "spider pen x": {
+      "title": "Spider Pen X",
+      "category": "Сценические иллюзии",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/spider-pen-x",
+      "image": "https://ellusionist.com/cdn/shop/files/sp1.jpg?v=1762459307&width=2048",
+      "video": "https://vimeo.com/713389908",
+      "first_seen": "2026-11-16"
+    },
+    "replica pocket size impression pad": {
+      "title": "REPLICA: Pocket-size Impression Pad",
+      "category": "Электроника и гаджеты",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/replica-impression-notepad",
+      "image": "https://ellusionist.com/cdn/shop/files/NN73487.jpg?v=1775481115&width=2048",
+      "video": "https://vimeo.com/1082834121",
+      "first_seen": "2026-11-16"
+    },
+    "electric touch plus": {
+      "title": "Electric Touch Plus by Yigal Mesika",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/electric-touch-plus",
+      "image": "https://ellusionist.com/cdn/shop/files/nn11.jpg?v=1762457265&width=2048",
+      "video": "https://vimeo.com/1059274579",
+      "first_seen": "2026-11-16"
+    },
+    "non safety pins": {
+      "title": "Non-Safety Pins",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/non-safety-pins",
+      "image": "https://ellusionist.com/cdn/shop/files/non-safety-pins-0.jpg?v=1762459322&width=2048",
+      "video": "https://vimeo.com/1090471020",
+      "first_seen": "2026-11-16"
+    },
+    "outside the box": {
+      "title": "Outside the Box",
+      "category": "Close-up и реквизит",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/outside-the-box",
+      "image": "https://ellusionist.com/cdn/shop/files/OTB-2.2.jpg?v=1762459385&width=2048",
+      "video": "https://vimeo.com/1089772183",
+      "first_seen": "2026-11-16"
+    },
+    "below": {
+      "title": "Below",
+      "category": "Карточные фокусы",
+      "source": "Ellusionist",
+      "url": "https://ellusionist.com/products/below",
+      "image": "https://ellusionist.com/cdn/shop/files/Sans-titre_1.30.1.jpg?v=1762459177&width=2048",
+      "video": "https://vimeo.com/1033925734",
+      "first_seen": "2026-11-16"
+    }
+  },
+  "urls": {
+    "https://tccmagic.com/products/tccvip": "tcc vip membership",
+    "https://tccmagic.com/products/tcc-thank-you-flash-sale-until-november-15th": "tcc thank you flash sale until november 15th",
+    "https://tccmagic.com/products/melero-deck-by-ernesto-melero-tcc-magic": "melero deck",
+    "https://tccmagic.com/products/floating-drop": "floating drop",
+    "https://tccmagic.com/products/final-chapter": "final chapter",
+    "https://tccmagic.com/products/lumos-candle-by-anson-lee": "lumos candle",
+    "https://tccmagic.com/products/the-spirit-deck-by-birdy-cai-jay-wang-and-tcc-magic": "the spirit deck",
+    "https://tccmagic.com/products/lightweave-by-magic-cloud-and-tcc-magic": "lightweave",
+    "https://tccmagic.com/products/stainless-steel-linking-rings-by-tcc-3-colors": "stainless steel linking rings",
+    "https://tccmagic.com/products/luminous-by-j-f-zeng-sam-li-jays-wonder-series-instant-download": "luminous",
+    "https://tccmagic.com/products/vanicoin-by-enoch-jays-wonder-series-instant-download": "vanicoin",
+    "https://tccmagic.com/products/coin-centric-by-tenyo-magic-2027": "coin centric",
+    "https://tccmagic.com/products/transpa-vision-by-tenyo": "transpa vision",
+    "https://tccmagic.com/products/chameleon-dice-by-tenyo-magic-2027": "chameleon dice",
+    "https://tccmagic.com/products/cristal": "cristal",
+    "https://tccmagic.com/products/anything-bag-by-conan-liu-royce-luo": "anything bag",
+    "https://tccmagic.com/products/magneticubes-by-david-distantlands-studio": "magneticubes",
+    "https://tccmagic.com/products/no-way-to-peek-by-magics-nbsp-express": "no way to peek",
+    "https://tccmagic.com/products/baby-deck-by-dan-harlan": "baby deck",
+    "https://tccmagic.com/products/coin-fantasy-by-magic-class-tcc-magic": "coin fantasy",
+    "https://tccmagic.com/products/chinese-3-fly": "chinese 3 fly c3f",
+    "https://tccmagic.com/products/eclipse-box-by-latko": "eclipse box",
+    "https://tccmagic.com/products/mystic-tuner-by-tatta": "mystic tuner",
+    "https://tccmagic.com/products/holy-grail": "the holy grail",
+    "https://ellusionist.com/products/official-magic-stream-subscription": "magic stream annual pass",
+    "https://ellusionist.com/products/mountebank": "mountebank",
+    "https://ellusionist.com/products/psychic-survival-kit": "psychic survival kit",
+    "https://ellusionist.com/products/mozaic": "mozaic",
+    "https://ellusionist.com/products/hydra-pro-by-shameer-salim": "hydra pro",
+    "https://ellusionist.com/products/levitas": "levitas 2 0",
+    "https://ellusionist.com/products/deadline-pro": "deadline pro",
+    "https://ellusionist.com/products/air-vanish": "air vanish",
+    "https://ellusionist.com/products/jungle-book": "the jungle book test",
+    "https://ellusionist.com/products/emoji-book": "emoji trick",
+    "https://ellusionist.com/products/venom-pro": "venom pro",
+    "https://ellusionist.com/products/h2o-by-juan-colas": "h2o",
+    "https://ellusionist.com/products/the-ultimate-collection-of-self-working-card-tricks": "the ultimate collection of self working card tricks",
+    "https://ellusionist.com/products/crazy-sams-mind": "crazy sam s mind",
+    "https://ellusionist.com/products/crazy-sams-finger-ring-1": "crazy sam s finger ring",
+    "https://ellusionist.com/products/shock-wave": "shockwave",
+    "https://ellusionist.com/products/cohort-casino": "cohort casino marked playing cards",
+    "https://ellusionist.com/products/lava-pad": "lava pad",
+    "https://ellusionist.com/products/spider-pen-x": "spider pen x",
+    "https://ellusionist.com/products/replica-impression-notepad": "replica pocket size impression pad",
+    "https://ellusionist.com/products/electric-touch-plus": "electric touch plus",
+    "https://ellusionist.com/products/non-safety-pins": "non safety pins",
+    "https://ellusionist.com/products/outside-the-box": "outside the box",
+    "https://ellusionist.com/products/below": "below"
+  }
+}
