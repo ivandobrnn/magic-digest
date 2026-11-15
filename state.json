@@ -7,7 +7,8 @@
       "url": "https://tccmagic.com/products/tccvip",
       "image": "https://tccmagic.com/cdn/shop/files/VIP_h1_1200x1200.jpg?v=1718786423",
       "video": "",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 4
     },
     "tcc thank you flash sale until november 15th": {
       "title": "TCC Thank You Flash Sale - Until November 15th",
@@ -483,8 +484,5 @@
     "https://ellusionist.com/products/outside-the-box": "outside the box",
     "https://ellusionist.com/products/below": "below"
   },
-  "pending": {
-    "key": "tcc vip membership",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
