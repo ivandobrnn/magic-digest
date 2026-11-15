@@ -26,7 +26,8 @@
       "url": "https://tccmagic.com/products/melero-deck-by-ernesto-melero-tcc-magic",
       "image": "https://tccmagic.com/cdn/shop/files/DSC00669_1200x1200.png?v=1794273298",
       "video": "https://www.youtube.com/watch?v=T48Rnp2HFT8",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 5
     },
     "floating drop": {
       "title": "Floating Drop by Allen Magic & Magic City",
@@ -484,9 +485,5 @@
     "https://ellusionist.com/products/outside-the-box": "outside the box",
     "https://ellusionist.com/products/below": "below"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "melero deck",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
