@@ -1612,7 +1612,8 @@
       "url": "https://www.iarvelmagic.com/products/iarvelwatchspecialedition",
       "image": "https://img-va.myshopline.com/image/store/1665279799887/IARVEL-Watch-Special-Edition-3833.jpg?w=1600&h=1600",
       "video": "",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 18
     },
     "tarot project 2 0": {
       "title": "Tarot Project 2.0 by Casey Tang",
@@ -2106,9 +2107,5 @@
     "https://pitata.cn/products/pitata-smart-clipboard-1": "pitata smart clipboard",
     "https://pitata.cn/products/pitata-watch-pocket-edition": "pitata watch pocket edition"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "iarvel watch special edition",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
