@@ -487,5 +487,9 @@
     "https://ellusionist.com/products/outside-the-box": "outside the box",
     "https://ellusionist.com/products/below": "below"
   },
-  "last_issue": "2026-11-16"
+  "last_issue": "2026-11-16",
+  "pending": {
+    "key": "lumos candle",
+    "date": "2026-11-16"
+  }
 }
