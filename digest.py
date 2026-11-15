@@ -17,8 +17,8 @@ from urllib3.util.retry import Retry
 
 STATE = Path(__file__).with_name("state.json")
 SOURCES = {
-    "Penguin Magic": "https://www.penguinmagic.com/tricks/tagged/new",
-    "Vanishing Inc.": "https://www.vanishingincmagic.com/magic-tricks/page/1/",
+    "TCC Magic": "https://tccmagic.com/collections/new-releases",
+    "Ellusionist": "https://ellusionist.com/collections/new-releases",
 }
 RULES = (
     ("Магические приложения", r"app|apps|ios|android|app store"),
@@ -65,12 +65,10 @@ def listings(source, url):
         if target.hostname != urlsplit(url).hostname:
             continue
         title = " ".join(anchor.stripped_strings)
-        if source == "Penguin Magic":
-            if not re.fullmatch(r"/p/\d+/?", target.path):
-                continue
-        elif title.casefold() != "more info":
+        product = re.fullmatch(r"(?:/collections/[^/]+)?(/products/[^/]+)/?", target.path)
+        if not product:
             continue
-        clean = f"https://{target.netloc}{target.path.rstrip('/')}"
+        clean = f"https://{target.netloc}{product[1]}"
         if clean not in links or (title and title != "More Info"):
             links[clean] = title
     if not links:
