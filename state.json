@@ -1784,7 +1784,8 @@
       "url": "https://pitata.cn/products/pitata-levitideck",
       "image": "https://pitata.cn/cdn/shop/files/9_06235231-8fda-48aa-ac68-e785df67814e_1200x675.jpg?v=1767666648",
       "video": "https://www.youtube.com/watch?v=Tnwt4F7lg08",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 19
     },
     "pitata inversion board": {
       "title": "PITATA Inversion Board",
@@ -2107,9 +2108,5 @@
     "https://pitata.cn/products/pitata-smart-clipboard-1": "pitata smart clipboard",
     "https://pitata.cn/products/pitata-watch-pocket-edition": "pitata watch pocket edition"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "farewell sale pitata levitideck",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
