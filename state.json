@@ -56,7 +56,8 @@
       "url": "https://tccmagic.com/products/lumos-candle-by-anson-lee",
       "image": "https://tccmagic.com/cdn/shop/files/DSC00318_1_1200x1200.png?v=1793345502",
       "video": "https://www.youtube.com/watch?v=mkpicSvvp_8",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 8
     },
     "the spirit deck": {
       "title": "The Spirit Deck by Birdy Cai, Jay Wang, and TCC Magic",
@@ -487,9 +488,5 @@
     "https://ellusionist.com/products/outside-the-box": "outside the box",
     "https://ellusionist.com/products/below": "below"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "lumos candle",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
