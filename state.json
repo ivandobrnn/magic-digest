@@ -1296,7 +1296,8 @@
       "url": "https://www.52magic.com/Dream-Printer-by-Bond-Lee-ZF-Magic-p2076983.html",
       "image": "https://ssl.images-ssl-mars.com/29748/2025/09/11/a/d/ad059b2b6b1fc5ab.jpg",
       "video": "https://ssl.images-ssl-mars.com/29748/2025/09/11/b/e/bee838fea039a7d7.mp4",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 17
     },
     "any card at any dice": {
       "title": "Any Card at Any Dice by Mathieu Cima & Magic Dream",
@@ -2105,9 +2106,5 @@
     "https://pitata.cn/products/pitata-smart-clipboard-1": "pitata smart clipboard",
     "https://pitata.cn/products/pitata-watch-pocket-edition": "pitata watch pocket edition"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "dream printer",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
