@@ -46,7 +46,8 @@
       "url": "https://tccmagic.com/products/final-chapter",
       "image": "https://tccmagic.com/cdn/shop/files/FCJ00510_1_1200x1200.png?v=1794200815",
       "video": "https://www.youtube.com/watch?v=3h4PgIyGe9o",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 7
     },
     "lumos candle": {
       "title": "Lumos Candle by Anson Lee & Hypothesis Magic",
@@ -486,9 +487,5 @@
     "https://ellusionist.com/products/outside-the-box": "outside the box",
     "https://ellusionist.com/products/below": "below"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "final chapter",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
