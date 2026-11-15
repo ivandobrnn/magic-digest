@@ -25,6 +25,9 @@ SOURCES = {
     "Magic Dream": "https://magicdream.fr/collections/nouveautes",
     "Wizard Magic Shop": "https://wizardmagicshop.com/collections/new-arrivals",
     "J&B Magic": "https://brickandmortarmagic.com/collections/special-order-items",
+    "52Magic": "https://www.52magic.com/New-Arrivals-rc19075.html",
+    "IARVEL MAGIC": "https://www.iarvelmagic.com/collections/new-products",
+    "PITATA Magic": "https://pitata.cn/collections/frontpage",
 }
 RULES = (
     ("Магические приложения", r"app|apps|ios|android|app store"),
@@ -71,7 +74,9 @@ def listings(source, url):
         if target.hostname != urlsplit(url).hostname:
             continue
         title = " ".join(anchor.stripped_strings)
-        product = re.fullmatch(r"(?:/collections/[^/]+)?(/products/[^/]+)/?", target.path)
+        pattern = (r"(/[^/]+-p[0-9]+[.]html)" if source == "52Magic"
+                   else r"(?:/collections/[^/]+)?(/products/[^/]+)/?")
+        product = re.fullmatch(pattern, target.path)
         if not product:
             continue
         clean = f"https://{target.netloc}{product[1]}"
@@ -130,9 +135,12 @@ def details(source, url, fallback):
     heading = page.find("h1")
     title = (heading.get_text(" ", strip=True) if heading else "") or meta("og:title") or fallback
     title = re.sub(r"\s*[|]\s*(Vanishing Inc\.?.*|Penguin Magic.*)$", "", title).strip()
+    if source == "52Magic":
+        title = (meta("og:title") or fallback or title).lstrip("* ").strip()
     if not title or title == "More Info":
         raise ValueError("нет названия товара")
-    description = meta("og:description", "description")
+    description = (meta("keywords", "description") if source == "52Magic"
+                   else meta("og:description", "description"))
     raw_image = meta("og:image:secure_url", "og:image", "twitter:image")
     image = urljoin(url, raw_image) if raw_image else ""
     if urlsplit(image).scheme != "https":
@@ -143,6 +151,15 @@ def details(source, url, fallback):
         if tag.get("data-youtube-id"):
             candidates.append("https://youtu.be/" + tag["data-youtube-id"])
     video = next((link for raw in candidates if raw and (link := video_link(raw, url))), "")
+    if source == "52Magic" and not video:
+        for script in page.find_all("script"):
+            match = re.search(
+                r'var videoSrc = "(https://ssl[.]images-ssl-mars[.]com/[^"\s]+[.]mp4)"',
+                script.string or "",
+            )
+            if match:
+                video = match[1]
+                break
     return dict(title=title, category=category(title, description, url), source=source,
                 url=url, image=image, video=video)
 
@@ -162,7 +179,7 @@ def collect(state, today):
             continue
         known = state.setdefault("urls", {})
         detail_errors = 0
-        source_cards = 0
+        source_cards = source_photos = source_videos = 0
         deadline = time.monotonic() + 50
         for target, title in links:
             if target in known:
@@ -184,6 +201,8 @@ def collect(state, today):
                 continue
             known[target] = key
             source_cards += 1
+            source_photos += bool(item["image"])
+            source_videos += bool(item["video"])
             new_cards += 1
             if key in items:
                 old = items[key]
@@ -191,7 +210,8 @@ def collect(state, today):
                     old[field] = old[field] or item[field]
                 continue
             items[key] = dict(item, first_seen=today.isoformat())
-        print(f"{source}: processed {source_cards} previously unseen product URLs", flush=True)
+        print(f"{source}: processed {source_cards} previously unseen product URLs "
+              f"({source_photos} with photo, {source_videos} with video)", flush=True)
     if not successes or (requested_details and not new_cards and not items):
         raise SystemExit("Сбор не удался. Подробности в журнале.")
 
