@@ -306,7 +306,8 @@
       "url": "https://ellusionist.com/products/jungle-book",
       "image": "https://ellusionist.com/cdn/shop/files/01-front.jpg?v=1775481285&width=2048",
       "video": "https://vimeo.com/1162511390",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 26
     },
     "emoji trick": {
       "title": "Emoji Trick",
@@ -2137,9 +2138,5 @@
     "https://alternateworldsmagic.com/products/andys-toy-chest-puzzle-box-by-fantasma-magic": "andy s toy chest puzzle box",
     "https://alternateworldsmagic.com/products/stop-light-paddle-brown-by-gentlemens-magic": "stop light paddle brown"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "the jungle book test",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
