@@ -2104,5 +2104,9 @@
     "https://pitata.cn/products/pitata-smart-clipboard-1": "pitata smart clipboard",
     "https://pitata.cn/products/pitata-watch-pocket-edition": "pitata watch pocket edition"
   },
-  "last_issue": "2026-11-16"
+  "last_issue": "2026-11-16",
+  "pending": {
+    "key": "six pro",
+    "date": "2026-11-16"
+  }
 }
