@@ -19,6 +19,12 @@ STATE = Path(__file__).with_name("state.json")
 SOURCES = {
     "TCC Magic": "https://tccmagic.com/collections/new-releases",
     "Ellusionist": "https://ellusionist.com/collections/new-releases",
+    "Alakazam Magic": "https://alakazam.co.uk/collections/new-in",
+    "Tannen's": "https://www.tannens.com/collections/new-arrivals",
+    "Merchant of Magic": "https://magicshop.co.uk/collections/whats-new",
+    "Magic Dream": "https://magicdream.fr/collections/nouveautes",
+    "Wizard Magic Shop": "https://wizardmagicshop.com/collections/new-arrivals",
+    "J&B Magic": "https://brickandmortarmagic.com/collections/special-order-items",
 }
 RULES = (
     ("Магические приложения", r"app|apps|ios|android|app store"),
@@ -144,7 +150,8 @@ def details(source, url, fallback):
 def collect(state, today):
     items = state.setdefault("items", {})
     successes = 0
-    detail_errors = 0
+    new_cards = 0
+    requested_details = False
     for source, url in SOURCES.items():
         try:
             links = listings(source, url)
@@ -154,28 +161,38 @@ def collect(state, today):
             print(f"{source}: {error}", flush=True)
             continue
         known = state.setdefault("urls", {})
+        detail_errors = 0
+        source_cards = 0
+        deadline = time.monotonic() + 50
         for target, title in links:
             if target in known:
                 continue
+            if time.monotonic() >= deadline:
+                print(f"{source}: remaining cards deferred until next run", flush=True)
+                break
+            requested_details = True
             try:
                 item = details(source, target, title)
             except (requests.RequestException, ValueError) as error:
                 print(f"{target}: {error}", flush=True)
                 detail_errors += 1
-                if detail_errors >= 8:
+                if detail_errors >= 4:
                     break
                 continue
             key = fingerprint(item["title"])
             if not key:
                 continue
             known[target] = key
+            source_cards += 1
+            new_cards += 1
             if key in items:
                 old = items[key]
                 for field in ("image", "video"):
                     old[field] = old[field] or item[field]
                 continue
             items[key] = dict(item, first_seen=today.isoformat())
-    if not successes or (detail_errors and not state.get("items")):
+        print(f"{source}: processed {source_cards} previously unseen product URLs", flush=True)
+    if not successes or (requested_details and not new_cards and not items):
         raise SystemExit("Сбор не удался. Подробности в журнале.")
 
 
@@ -261,7 +278,12 @@ def main():
     selection = []
     while candidates and len(selection) < 7:
         used = {items[key]["category"] for key in selection}
-        index = next((i for i, key in enumerate(candidates) if items[key]["category"] not in used), 0)
+        covered_sources = {items[key]["source"] for key in selection}
+        index = min(range(len(candidates)), key=lambda i: (
+            items[candidates[i]]["category"] in used,
+            items[candidates[i]]["first_seen"] != items[candidates[0]]["first_seen"],
+            items[candidates[i]]["source"] in covered_sources,
+        ))
         selection.append(candidates.pop(index))
     if mode == "preview":
         for key in selection:
