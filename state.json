@@ -1799,7 +1799,8 @@
       "url": "https://pitata.cn/products/pitata-inversion-board",
       "image": "https://pitata.cn/cdn/shop/files/DSC02399_1200x675.jpg?v=1773035284",
       "video": "https://www.youtube.com/watch?v=zBiU_LukzW0",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 25
     },
     "pitata wooden board": {
       "title": "PITATA Wooden Board",
@@ -2136,9 +2137,5 @@
     "https://alternateworldsmagic.com/products/andys-toy-chest-puzzle-box-by-fantasma-magic": "andy s toy chest puzzle box",
     "https://alternateworldsmagic.com/products/stop-light-paddle-brown-by-gentlemens-magic": "stop light paddle brown"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "pitata inversion board",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
