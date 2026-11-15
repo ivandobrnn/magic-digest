@@ -5,6 +5,8 @@ import re
 import subprocess
 import time
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor
+from threading import local
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit, parse_qs
@@ -46,23 +48,32 @@ WEB.mount("https://", HTTPAdapter(max_retries=Retry(
     respect_retry_after_header=False,
 )))
 ROBOTS = {}
+DISCOVERY = local()
+NEW_COLLECTION = re.compile(
+    r"new[-_ ](?:in|items|products|arrivals|releases)|what.?s[-_ ]new|"
+    r"latest[-_ ]arrivals|nouveaut|novedad|novit|neuheiten|nieuw|novidades|"
+    r"новинки|新着|新商品|新品", re.I,
+)
 
 
 def fetch(url):
     root = urlsplit(url)
     origin = f"{root.scheme}://{root.netloc}"
-    if origin not in ROBOTS:
-        response = WEB.get(origin + "/robots.txt", timeout=(5, 10))
+    session = getattr(DISCOVERY, "session", WEB)
+    robots = getattr(DISCOVERY, "robots", ROBOTS)
+    timeout = (4, 8) if session is not WEB else (5, 12)
+    if origin not in robots:
+        response = session.get(origin + "/robots.txt", timeout=timeout)
         policy = RobotFileParser()
         if response.status_code == 404:
             policy.parse([])
         else:
             response.raise_for_status()
             policy.parse(response.text.splitlines())
-        ROBOTS[origin] = policy
-    if not ROBOTS[origin].can_fetch(AGENT, url):
+        robots[origin] = policy
+    if not robots[origin].can_fetch(AGENT, url):
         raise ValueError("robots.txt запрещает чтение страницы")
-    response = WEB.get(url, timeout=(5, 12))
+    response = session.get(url, timeout=timeout)
     response.raise_for_status()
     return BeautifulSoup(response.text, "html.parser")
 
@@ -164,6 +175,83 @@ def details(source, url, fallback):
                 url=url, image=image, video=video)
 
 
+def catalog_shops(today):
+    def host(url):
+        return urlsplit(url).hostname.removeprefix("www.")
+
+    active = {host(url) for url in SOURCES.values()}
+    shops = []
+    catalog = STATE.with_name("MAGIC_SHOPS.md").read_text(encoding="utf-8")
+    for line in catalog.splitlines():
+        columns = line[2:].split(" | ") if line.startswith("| ") else []
+        if len(columns) < 4:
+            continue
+        store = re.fullmatch(r"\[([^\]]+)\]\((https?://[^)]+)\)", columns[1])
+        if not store or host(store[2]) in active:
+            continue
+        recent = re.fullmatch(r"\[Открыть\]\((https?://[^)]+)\)", columns[2])
+        shops.append((store[1], store[2], recent[1] if recent else ""))
+    return shops[today.toordinal() % 7::7]
+
+
+def discover_store(shop, known_urls):
+    source, site, recent = shop
+    DISCOVERY.robots = {}
+    with requests.Session() as session:
+        DISCOVERY.session = session
+        session.headers["User-Agent"] = AGENT + "/1.0"
+        try:
+            if not recent:
+                links = []
+                for anchor in fetch(site).select("a[href]"):
+                    candidate = urlsplit(urljoin(site, anchor["href"]))
+                    if (candidate.hostname or "").removeprefix("www.") != urlsplit(site).hostname.removeprefix("www."):
+                        continue
+                    if not re.fullmatch(r"/collections/[^/]+/?", candidate.path):
+                        continue
+                    label = anchor.get_text(" ", strip=True)
+                    if NEW_COLLECTION.search(candidate.path + " " + label):
+                        links.append(candidate._replace(query="", fragment="").geturl())
+                recent = next(iter(links), "")
+            if not recent:
+                return source, "витрина новинок не найдена", []
+            products = listings(source, recent)
+            cards = []
+            for url, title in products[:5]:
+                if url in known_urls:
+                    continue
+                try:
+                    item = details(source, url, title)
+                except (ValueError, requests.RequestException):
+                    continue
+                if item["image"] and fingerprint(item["title"]):
+                    cards.append(item)
+            return source, f"{len(products)} ссылок в витрине, {len(cards)} новых карточек", cards
+        except (ValueError, requests.RequestException) as error:
+            return source, str(error), []
+        finally:
+            del DISCOVERY.session, DISCOVERY.robots
+
+
+def collect_catalog(state, today):
+    known = state.setdefault("urls", {})
+    items = state.setdefault("items", {})
+    shops = catalog_shops(today)
+    print(f"Мировой каталог: проверяю {len(shops)} магазинов в сегодняшней группе", flush=True)
+    known_urls = frozenset(known)
+    with ThreadPoolExecutor(max_workers=10) as pool:
+        for source, status, cards in pool.map(lambda shop: discover_store(shop, known_urls), shops):
+            print(f"Мировой каталог · {source}: {status}", flush=True)
+            for item in cards:
+                key = fingerprint(item["title"])
+                known[item["url"]] = key
+                if key not in items:
+                    items[key] = dict(item, first_seen=today.isoformat())
+                else:
+                    for field in ("image", "video"):
+                        items[key][field] = items[key][field] or item[field]
+
+
 def collect(state, today):
     items = state.setdefault("items", {})
     successes = 0
@@ -212,7 +300,9 @@ def collect(state, today):
             items[key] = dict(item, first_seen=today.isoformat())
         print(f"{source}: processed {source_cards} previously unseen product URLs "
               f"({source_photos} with photo, {source_videos} with video)", flush=True)
-    if not successes or (requested_details and not new_cards and not items):
+    previous_count = len(items)
+    collect_catalog(state, today)
+    if (not successes and len(items) == previous_count) or (requested_details and not new_cards and not items):
         raise SystemExit("Сбор не удался. Подробности в журнале.")
 
 
