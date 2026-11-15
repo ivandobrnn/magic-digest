@@ -276,7 +276,8 @@
       "url": "https://ellusionist.com/products/levitas",
       "image": "https://ellusionist.com/cdn/shop/files/80366-alt1.png?v=1778515283&width=2048",
       "video": "https://vimeo.com/1191226700",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 14
     },
     "deadline pro": {
       "title": "Deadline Pro",
@@ -2102,9 +2103,5 @@
     "https://pitata.cn/products/pitata-smart-clipboard-1": "pitata smart clipboard",
     "https://pitata.cn/products/pitata-watch-pocket-edition": "pitata watch pocket edition"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "levitas 2 0",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
