@@ -1858,6 +1858,24 @@
       "image": "https://pitata.cn/cdn/shop/files/DSC07948_1200x800.jpg?v=1767666854",
       "video": "https://www.youtube.com/watch?v=QXGMjMKxeSU",
       "first_seen": "2026-11-16"
+    },
+    "the alternate worlds magic gift card the perfect gift for magicians": {
+      "title": "The Alternate Worlds Magic Gift Card: The Perfect Gift for Magicians",
+      "category": "Карточные фокусы",
+      "source": "Alternate Worlds Magic",
+      "url": "https://alternateworldsmagic.com/products/alternate-worlds-magic-gift-card",
+      "image": "https://alternateworldsmagic.com/cdn/shop/files/GiftCardSquare.png?v=1765806876",
+      "video": "",
+      "first_seen": "2026-11-16"
+    },
+    "the rebel wallet gimmick and online instructions": {
+      "title": "The Rebel Wallet (Gimmick and Online Instructions) by Secret Tannery  - Trick",
+      "category": "Карточные фокусы",
+      "source": "Alternate Worlds Magic",
+      "url": "https://alternateworldsmagic.com/products/the-rebel-wallet-gimmick-and-online-instructions-by-secret-tannery-trick",
+      "image": "https://alternateworldsmagic.com/cdn/shop/files/64567-full.png?v=1794643500",
+      "video": "",
+      "first_seen": "2026-11-16"
     }
   },
   "urls": {
@@ -2106,7 +2124,12 @@
     "https://pitata.cn/products/pitata-stone-code": "pitata stone code",
     "https://pitata.cn/products/pitata-smart-printer": "pitata smart printer",
     "https://pitata.cn/products/pitata-smart-clipboard-1": "pitata smart clipboard",
-    "https://pitata.cn/products/pitata-watch-pocket-edition": "pitata watch pocket edition"
+    "https://pitata.cn/products/pitata-watch-pocket-edition": "pitata watch pocket edition",
+    "https://alternateworldsmagic.com/products/alternate-worlds-magic-gift-card": "the alternate worlds magic gift card the perfect gift for magicians",
+    "https://alternateworldsmagic.com/products/the-rebel-wallet-gimmick-and-online-instructions-by-secret-tannery-trick": "the rebel wallet gimmick and online instructions",
+    "https://alternateworldsmagic.com/products/buzz-lightyear-puzzle-box-by-fantasma-magic": "buzz lightyear puzzle box",
+    "https://alternateworldsmagic.com/products/andys-toy-chest-puzzle-box-by-fantasma-magic": "andy s toy chest puzzle box",
+    "https://alternateworldsmagic.com/products/stop-light-paddle-brown-by-gentlemens-magic": "stop light paddle brown"
   },
   "last_issue": "2026-11-16"
 }
