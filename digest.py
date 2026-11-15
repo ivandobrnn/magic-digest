@@ -271,15 +271,79 @@ def publish_item(item, today):
     return telegram("sendMessage", dict(payload, text=text, link_preview_options={"is_disabled": True}))
 
 
+CHECK_CALLBACK = "magic_digest_check"
+CHECK_KEYBOARD = {"inline_keyboard": [[{
+    "text": "Проверить сейчас", "callback_data": CHECK_CALLBACK,
+}]]}
+CHECK_TEXT = "🎩 Проверка новинок для администраторов канала"
+
+
+def requested_check():
+    params = {"allowed_updates": ["callback_query"], "limit": 100, "timeout": 0}
+    updates, code = telegram("getUpdates", params)
+    if code:
+        raise SystemExit(f"Telegram отклонил получение нажатий: код {code}")
+    if not updates:
+        return None
+
+    requested = None
+    channel_id = os.environ["TELEGRAM_CHAT_ID"]
+    membership = {}
+    for update in updates:
+        callback = update.get("callback_query", {})
+        message = callback.get("message", {})
+        chat = message.get("chat", {})
+        if callback.get("data") != CHECK_CALLBACK or not (
+            str(chat.get("id")) == channel_id
+            or chat.get("username") and "@" + chat["username"] == channel_id
+        ):
+            continue
+        user_id = callback["from"]["id"]
+        if user_id not in membership:
+            member, code = telegram("getChatMember", {"user_id": user_id})
+            membership[user_id] = bool(member and member["status"] in {"creator", "administrator"})
+        if membership[user_id]:
+            requested = message["message_id"]
+    _, code = telegram("getUpdates", dict(params, offset=updates[-1]["update_id"] + 1, limit=1))
+    if code:
+        raise SystemExit(f"Telegram отклонил подтверждение нажатий: код {code}")
+    return requested
+
+
+def update_button(message_id, status):
+    _, code = telegram("editMessageText", {
+        "message_id": message_id, "text": CHECK_TEXT + "\n" + status,
+        "reply_markup": CHECK_KEYBOARD,
+    })
+    if code:
+        print(f"Telegram не обновил статус кнопки: код {code}")
+
+
 def main():
     mode = os.environ.get("MODE", "preview")
-    if mode not in {"preview", "test", "publish", "schedule"}:
+    if mode not in {"preview", "test", "publish", "schedule", "button", "poll"}:
         raise SystemExit("Неизвестный режим запуска")
     if mode == "test":
         result, code = telegram("sendMessage", {"text": "🎩 Бот подключён. Это тестовое сообщение."})
         if not result:
             raise SystemExit(f"Telegram отклонил проверку: код {code}")
         return
+    if mode == "button":
+        result, code = telegram("sendMessage", {
+            "text": CHECK_TEXT + "\nGitHub проверяет нажатия примерно раз в 10 минут.",
+            "reply_markup": CHECK_KEYBOARD,
+        })
+        if not result:
+            raise SystemExit(f"Telegram отклонил создание кнопки: код {code}")
+        return
+    button_message = None
+    if mode == "poll":
+        if not os.environ.get("TELEGRAM_BOT_TOKEN") or not os.environ.get("TELEGRAM_CHAT_ID"):
+            return
+        button_message = requested_check()
+        if button_message is None:
+            return
+        mode = "publish"
     push = os.environ.get("GITHUB_ACTIONS") == "true"
     if mode != "preview" and not push:
         raise SystemExit("Режим публикации запускайте через GitHub Actions.")
@@ -287,6 +351,8 @@ def main():
     today = datetime.now(timezone(timedelta(hours=3))).date()
     if mode != "preview" and state.get("pending"):
         raise SystemExit("Предыдущая отправка требует сверки. См. README и pending в state.json.")
+    if button_message:
+        update_button(button_message, "Проверяю источники…")
     collect(state, today)
     items = state["items"]
     candidates = [
@@ -330,6 +396,10 @@ def main():
         if not result:
             raise SystemExit(f"Telegram отклонил публикацию: код {code}")
         time.sleep(1.2)
+    if button_message:
+        status = f"Опубликовано карточек: {len(selection)}." if selection else "Новых карточек нет."
+        now = datetime.now(timezone(timedelta(hours=3)))
+        update_button(button_message, f"{now:%d.%m %H:%M} МСК · {status}")
 
 
 if __name__ == "__main__":
