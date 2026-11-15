@@ -255,7 +255,8 @@
       "url": "https://ellusionist.com/products/mozaic",
       "image": "https://ellusionist.com/cdn/shop/files/mozaic-ellusionist-08.jpg?v=1782312555&width=2048",
       "video": "https://vimeo.com/1204203372",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 9
     },
     "hydra pro": {
       "title": "Hydra Pro",
@@ -488,9 +489,5 @@
     "https://ellusionist.com/products/outside-the-box": "outside the box",
     "https://ellusionist.com/products/below": "below"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "mozaic",
-    "date": "2026-11-16"
-  }
+  "last_issue": "2026-11-16"
 }
