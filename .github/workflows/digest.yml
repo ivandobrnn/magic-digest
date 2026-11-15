@@ -10,8 +10,12 @@ on:
       mode:
         description: Режим запуска
         type: choice
-        options: [preview, test, publish, button]
+        options: [preview, test, publish, button, webhook]
         default: preview
+      button_message_id:
+        description: ID сообщения с кнопкой (заполняется Worker)
+        type: string
+        required: false
 permissions:
   contents: write
 concurrency:
@@ -19,7 +23,9 @@ concurrency:
   cancel-in-progress: false
 jobs:
   digest:
-    if: github.ref_name == github.event.repository.default_branch
+    if: >-
+      github.ref_name == github.event.repository.default_branch &&
+      (github.event.schedule != '2,12,22,32,42,52 * * * *' || vars.TELEGRAM_WEBHOOK_URL == '')
     runs-on: ubuntu-latest
     timeout-minutes: 12
     steps:
@@ -33,5 +39,8 @@ jobs:
       - run: python digest.py
         env:
           MODE: ${{ inputs.mode || (github.event.schedule == '17 6 * * *' && 'schedule' || github.event_name == 'schedule' && 'poll' || 'preview') }}
+          BUTTON_MESSAGE_ID: ${{ inputs.button_message_id }}
+          TELEGRAM_WEBHOOK_URL: ${{ vars.TELEGRAM_WEBHOOK_URL }}
+          WEBHOOK_SECRET: ${{ secrets.TELEGRAM_WEBHOOK_SECRET }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

@@ -321,22 +321,42 @@ def update_button(message_id, status):
 
 def main():
     mode = os.environ.get("MODE", "preview")
-    if mode not in {"preview", "test", "publish", "schedule", "button", "poll"}:
+    if mode not in {"preview", "test", "publish", "schedule", "button", "poll", "webhook"}:
         raise SystemExit("Неизвестный режим запуска")
     if mode == "test":
         result, code = telegram("sendMessage", {"text": "🎩 Бот подключён. Это тестовое сообщение."})
         if not result:
             raise SystemExit(f"Telegram отклонил проверку: код {code}")
         return
+    if mode == "webhook":
+        url = os.environ.get("TELEGRAM_WEBHOOK_URL", "")
+        secret = os.environ.get("WEBHOOK_SECRET", "")
+        target = urlsplit(url)
+        if target.scheme != "https" or not target.netloc or target.path != "/telegram":
+            raise SystemExit("Укажите HTTPS-адрес Worker с путём /telegram.")
+        if not re.fullmatch(r"[A-Za-z0-9_-]{32,256}", secret):
+            raise SystemExit("Создайте TELEGRAM_WEBHOOK_SECRET длиной от 32 символов.")
+        result, code = telegram("setWebhook", {
+            "url": url, "secret_token": secret, "allowed_updates": ["callback_query"],
+        })
+        if not result:
+            raise SystemExit(f"Telegram отклонил настройку webhook: код {code}")
+        print("Webhook Telegram подключён.")
+        return
     if mode == "button":
         result, code = telegram("sendMessage", {
-            "text": CHECK_TEXT + "\nGitHub проверяет нажатия примерно раз в 10 минут.",
+            "text": CHECK_TEXT,
             "reply_markup": CHECK_KEYBOARD,
         })
         if not result:
             raise SystemExit(f"Telegram отклонил создание кнопки: код {code}")
         return
     button_message = None
+    raw_button_message = os.environ.get("BUTTON_MESSAGE_ID", "")
+    if mode == "publish" and raw_button_message:
+        if not re.fullmatch(r"[1-9][0-9]{0,15}", raw_button_message):
+            raise SystemExit("Некорректный ID сообщения с кнопкой.")
+        button_message = int(raw_button_message)
     if mode == "poll":
         if not os.environ.get("TELEGRAM_BOT_TOKEN") or not os.environ.get("TELEGRAM_CHAT_ID"):
             return

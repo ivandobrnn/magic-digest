@@ -61,3 +61,15 @@ GitHub может задерживать запуск по расписанию.
 - Если карточки нет, удалите поле `pending` и запустите `publish`, чтобы продолжить публикацию.
 
 После ошибки Telegram с определённым кодом отказа проверьте токен, адрес канала и права бота. Журнал выводит код отказа. После частичного выпуска можно продолжить через `publish`. Уже записанные в истории карточки пропускаются.
+
+## Запуск кнопки через Cloudflare Worker
+
+1. Создайте в Cloudflare Workers & Pages Worker на бесплатном плане. В редакторе замените содержимое на код из cloudflare/worker.mjs и нажмите Deploy.
+2. Создайте в GitHub fine-grained personal access token только для репозитория magic-digest с разрешением Actions: Read and write. Задайте срок действия и сохраните токен как GITHUB_DISPATCH_TOKEN в секретах Worker.
+3. В настройках Worker добавьте TELEGRAM_BOT_TOKEN и TELEGRAM_CHAT_ID (числовой ID частного канала). Создайте новый случайный WEBHOOK_SECRET (32–256 символов из букв, цифр, дефисов и подчёркиваний), сохраните его в Worker.
+4. В GitHub, в Settings → Secrets and variables → Actions → Secrets, добавьте TELEGRAM_WEBHOOK_SECRET с тем же значением. На вкладке Variables создайте TELEGRAM_WEBHOOK_URL с адресом Worker и суффиксом /telegram, например https://magic-digest.example.workers.dev/telegram.
+5. Запустите Actions → Дайджест фокусов → Run workflow → webhook. После успеха нажмите существующую кнопку в Telegram. При необходимости режим button отправит новое сообщение с кнопкой.
+6. Telegram сразу покажет подтверждение постановки в очередь. Скрипт обновит сообщение с кнопкой после проверки источников. Запуск по расписанию продолжает работать. Периодический опрос пропускается, пока задан TELEGRAM_WEBHOOK_URL.
+
+Чтобы вернуться к опросу, сначала отключите webhook через метод Telegram deleteWebhook, затем удалите переменную TELEGRAM_WEBHOOK_URL в GitHub.
+
