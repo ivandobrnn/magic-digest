@@ -416,6 +416,10 @@ def main():
         if not result:
             raise SystemExit(f"Telegram отклонил публикацию: код {code}")
         time.sleep(1.2)
+    if selection:
+        _, code = telegram("sendMessage", {"text": f"📅 {today:%d.%m.%Y}\nНа этом пока всё."})
+        if code:
+            print(f"Telegram отклонил завершающее сообщение: код {code}", flush=True)
     if button_message:
         status = f"Опубликовано карточек: {len(selection)}." if selection else "Новых карточек нет."
         now = datetime.now(timezone(timedelta(hours=3)))
