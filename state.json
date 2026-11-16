@@ -1883,6 +1883,33 @@
       "image": "https://alternateworldsmagic.com/cdn/shop/files/64567-full.png?v=1794643500",
       "video": "",
       "first_seen": "2026-11-16"
+    },
+    "magic sponge mr dong black": {
+      "title": "Magic Sponge MR DONG (Black) by Murphy's Magic",
+      "category": "Close-up и реквизит",
+      "source": "Alakazam Magic",
+      "url": "https://alakazam.co.uk/products/magic-sponge-mr-dong-black-by-murphys-magic",
+      "image": "https://alakazam.co.uk/cdn/shop/files/80449-full.png?v=1794843980",
+      "video": "",
+      "first_seen": "2026-11-16"
+    },
+    "interchange": {
+      "title": "Interchange by Gary James",
+      "category": "Ментализм",
+      "source": "52Magic",
+      "url": "https://www.52magic.com/Interchange-by-Gary-James-p2196263.html",
+      "image": "https://ssl.images-ssl-mars.com/29748/2026/11/16/1/8/189c0025ea6d3407.png",
+      "video": "https://ssl.images-ssl-mars.com/29748/2026/11/16/e/7/e74cccb8fa11747f.mp4",
+      "first_seen": "2026-11-16"
+    },
+    "cube escape": {
+      "title": "Cube Escape",
+      "category": "Карточные фокусы",
+      "source": "52Magic",
+      "url": "https://www.52magic.com/Cube-Escape-p1747848.html",
+      "image": "https://ssl.images-ssl-mars.com/29748/2023/01/13/3/a/3a36767609174f61.jpg",
+      "video": "https://www.youtube.com/watch?v=WHbbpb0AJhI",
+      "first_seen": "2026-11-16"
     }
   },
   "urls": {
@@ -2136,7 +2163,10 @@
     "https://alternateworldsmagic.com/products/the-rebel-wallet-gimmick-and-online-instructions-by-secret-tannery-trick": "the rebel wallet gimmick and online instructions",
     "https://alternateworldsmagic.com/products/buzz-lightyear-puzzle-box-by-fantasma-magic": "buzz lightyear puzzle box",
     "https://alternateworldsmagic.com/products/andys-toy-chest-puzzle-box-by-fantasma-magic": "andy s toy chest puzzle box",
-    "https://alternateworldsmagic.com/products/stop-light-paddle-brown-by-gentlemens-magic": "stop light paddle brown"
+    "https://alternateworldsmagic.com/products/stop-light-paddle-brown-by-gentlemens-magic": "stop light paddle brown",
+    "https://alakazam.co.uk/products/magic-sponge-mr-dong-black-by-murphys-magic": "magic sponge mr dong black",
+    "https://www.52magic.com/Interchange-by-Gary-James-p2196263.html": "interchange",
+    "https://www.52magic.com/Cube-Escape-p1747848.html": "cube escape"
   },
   "last_issue": "2026-11-16"
 }
