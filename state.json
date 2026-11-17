@@ -2054,6 +2054,24 @@
       "image": "https://stevensmagic.com/cdn/shop/files/73382-full_1200x1200.png?v=1779203359",
       "video": "",
       "first_seen": "2026-11-17"
+    },
+    "br blue vintage casino playing cards": {
+      "title": "BR Blue Vintage Casino Playing Cards",
+      "category": "Карточные фокусы",
+      "source": "Alakazam Magic",
+      "url": "https://alakazam.co.uk/products/br-blue-vintage-casino-playing-cards",
+      "image": "https://alakazam.co.uk/cdn/shop/files/81127-full.png?v=1794933980",
+      "video": "",
+      "first_seen": "2026-11-17"
+    },
+    "ball and tube mystery steel": {
+      "title": "Ball and Tube Mystery (Steel) by Mr. Magic",
+      "category": "Close-up и реквизит",
+      "source": "Stevens Magic Emporium",
+      "url": "https://www.stevensmagic.global/products/ball-and-tube-mystery-steel-by-mr-magic",
+      "image": "https://stevensmagic.com/cdn/shop/files/mrballandtube-full_1200x1200.png?v=1794932012",
+      "video": "",
+      "first_seen": "2026-11-17"
     }
   },
   "urls": {
@@ -2339,7 +2357,12 @@
     "https://www.stevensmagic.global/products/identity-by-sylvain-mirouf": "identity",
     "https://www.stevensmagic.global/products/dave-forrests-chip-reader-expansion-pack": "dave forrest s chip reader expansion pack",
     "https://www.stevensmagic.global/products/bets-in-show-john-guastaferro-crowell-estate": "bets in show john guastaferro crowell estate",
-    "https://www.stevensmagic.global/products/gamma-nikolas-mavresis-and-david-jonathan-crowell-estate": "gamma nikolas mavresis and david jonathan crowell estate"
+    "https://www.stevensmagic.global/products/gamma-nikolas-mavresis-and-david-jonathan-crowell-estate": "gamma nikolas mavresis and david jonathan crowell estate",
+    "https://alakazam.co.uk/products/br-blue-vintage-casino-playing-cards": "br blue vintage casino playing cards",
+    "https://www.tannens.com/products/mountebank": "mountebank",
+    "https://magicshop.co.uk/products/br-blue-vintage-casino-playing-cards": "br blue vintage casino playing cards",
+    "https://www.stevensmagic.global/products/br-blue-vintage-casino-playing-cards": "br blue vintage casino playing cards",
+    "https://www.stevensmagic.global/products/ball-and-tube-mystery-steel-by-mr-magic": "ball and tube mystery steel"
   },
   "last_issue": "2026-11-16"
 }
