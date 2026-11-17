@@ -1918,7 +1918,8 @@
       "url": "https://tccmagic.com/products/jimmy-challenge",
       "image": "https://tccmagic.com/cdn/shop/files/2026-08-28_084319_1_1200x1200.jpg?v=1787878133",
       "video": "https://www.youtube.com/watch?v=QvI5_Xa8u_w",
-      "first_seen": "2026-11-17"
+      "first_seen": "2026-11-17",
+      "published": 28
     },
     "flash lighter": {
       "title": "Flash Lighter by Efimov Flash",
@@ -2364,9 +2365,5 @@
     "https://www.stevensmagic.global/products/br-blue-vintage-casino-playing-cards": "br blue vintage casino playing cards",
     "https://www.stevensmagic.global/products/ball-and-tube-mystery-steel-by-mr-magic": "ball and tube mystery steel"
   },
-  "last_issue": "2026-11-16",
-  "pending": {
-    "key": "jimmy s challenge",
-    "date": "2026-11-17"
-  }
+  "last_issue": "2026-11-17"
 }
