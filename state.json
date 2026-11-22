@@ -2091,7 +2091,8 @@
       "url": "https://tccmagic.com/products/anything-box-plus",
       "image": "https://tccmagic.com/cdn/shop/files/DSC04797_8a69fd64-f5be-45bb-b59c-07bd5ebfc851_1200x1200.png?v=1794984963",
       "video": "https://www.youtube.com/watch?v=Xoz2oanEhVw",
-      "first_seen": "2026-11-22"
+      "first_seen": "2026-11-22",
+      "published": 37
     },
     "the wonderful linking rings parlor version": {
       "title": "The Wonderful Linking Rings (Parlor Version) by TCC Magic",
@@ -2878,9 +2879,5 @@
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
     "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
   },
-  "last_issue": "2026-11-22",
-  "pending": {
-    "key": "anything box plus",
-    "date": "2026-11-22"
-  }
+  "last_issue": "2026-11-22"
 }
