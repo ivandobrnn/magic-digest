@@ -288,7 +288,8 @@
       "url": "https://ellusionist.com/products/deadline-pro",
       "image": "https://ellusionist.com/cdn/shop/files/deadline_vimeo_thumb_pro.jpg?v=1777647545&width=2048",
       "video": "https://vimeo.com/1188403686",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 41
     },
     "air vanish": {
       "title": "Air Vanish",
@@ -2882,9 +2883,5 @@
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
     "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
   },
-  "last_issue": "2026-11-22",
-  "pending": {
-    "key": "deadline pro",
-    "date": "2026-11-22"
-  }
+  "last_issue": "2026-11-22"
 }
