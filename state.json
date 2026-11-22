@@ -2456,7 +2456,8 @@
       "url": "https://shopmagicsupplies.com/products/phantom-pad",
       "image": "https://shopmagicsupplies.com/cdn/shop/files/Phantom_Pad_1920_x_1920.png?v=1780629509",
       "video": "https://www.youtube.com/watch?v=WkHHxMuvm68",
-      "first_seen": "2026-11-22"
+      "first_seen": "2026-11-22",
+      "published": 35
     },
     "frankenstein hängefigur 50cm": {
       "title": "Frankenstein Hängefigur | 50cm",
@@ -2877,9 +2878,5 @@
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
     "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
   },
-  "last_issue": "2026-11-22",
-  "pending": {
-    "key": "phantom pad",
-    "date": "2026-11-22"
-  }
+  "last_issue": "2026-11-22"
 }
