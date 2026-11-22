@@ -2426,7 +2426,8 @@
       "url": "https://shopmagicsupplies.com/products/notarized",
       "image": "https://shopmagicsupplies.com/cdn/shop/files/NotarizedShopMagicSupplies_1.jpg?v=1784795962",
       "video": "https://www.youtube.com/watch?v=26OE9K_s4Zo",
-      "first_seen": "2026-11-22"
+      "first_seen": "2026-11-22",
+      "published": 32
     },
     "tongue tied": {
       "title": "Tongue Tied",
@@ -2874,9 +2875,5 @@
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
     "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
   },
-  "last_issue": "2026-11-22",
-  "pending": {
-    "key": "notarized",
-    "date": "2026-11-22"
-  }
+  "last_issue": "2026-11-22"
 }
