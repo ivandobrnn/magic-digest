@@ -2871,5 +2871,9 @@
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
     "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
   },
-  "last_issue": "2026-11-17"
+  "last_issue": "2026-11-17",
+  "pending": {
+    "key": "card to bell",
+    "date": "2026-11-22"
+  }
 }
