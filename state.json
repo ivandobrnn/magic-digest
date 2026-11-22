@@ -2385,7 +2385,8 @@
       "url": "https://secret-magic-store.de/products/blox-david-jonathan",
       "image": "https://secret-magic-store.de/cdn/shop/files/81496-full.png?crop=center&height=1200&v=1795188921&width=1200",
       "video": "",
-      "first_seen": "2026-11-22"
+      "first_seen": "2026-11-22",
+      "published": 39
     },
     "professional rope tcc": {
       "title": "Professional Rope | TCC",
@@ -2880,9 +2881,5 @@
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
     "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
   },
-  "last_issue": "2026-11-22",
-  "pending": {
-    "key": "blox david jonathan",
-    "date": "2026-11-22"
-  }
+  "last_issue": "2026-11-22"
 }
