@@ -2155,7 +2155,8 @@
       "url": "https://alakazam.co.uk/products/blox-by-david-jonathan",
       "image": "https://alakazam.co.uk/cdn/shop/files/81496-full.png?v=1795189577",
       "video": "https://vimeo.com/1248728555",
-      "first_seen": "2026-11-22"
+      "first_seen": "2026-11-22",
+      "published": 31
     },
     "bankable": {
       "title": "Bankable by Eric Stevens",
@@ -2873,9 +2874,5 @@
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
     "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
   },
-  "last_issue": "2026-11-22",
-  "pending": {
-    "key": "blox",
-    "date": "2026-11-22"
-  }
+  "last_issue": "2026-11-22"
 }
