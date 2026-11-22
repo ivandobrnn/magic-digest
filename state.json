@@ -1386,7 +1386,8 @@
       "url": "https://www.52magic.com/Synaptic-by-Conjuring-Lab-p2187540.html",
       "image": "https://ssl.images-ssl-mars.com/29748/2026/10/27/6/c/6ca23b4fa0881182.png",
       "video": "https://ssl.images-ssl-mars.com/29748/2026/10/27/3/e/3eba78faa9d4d7ae.mp4",
-      "first_seen": "2026-11-16"
+      "first_seen": "2026-11-16",
+      "published": 43
     },
     "gambler": {
       "title": "Gambler by Julien Labigne and Marchand de trucs",
@@ -2884,9 +2885,5 @@
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
     "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
   },
-  "last_issue": "2026-11-22",
-  "pending": {
-    "key": "synaptic",
-    "date": "2026-11-22"
-  }
+  "last_issue": "2026-11-22"
 }
