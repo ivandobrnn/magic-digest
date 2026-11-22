@@ -2081,7 +2081,8 @@
       "url": "https://tccmagic.com/products/card-to-bell-by-ernesto-melero-tcc-magic",
       "image": "https://tccmagic.com/cdn/shop/files/DSC00747_204277b5-819a-4d84-9360-cc5f1bba6d99_1200x1200.png?v=1794984962",
       "video": "https://www.youtube.com/watch?v=UTzjeaPQt_w",
-      "first_seen": "2026-11-22"
+      "first_seen": "2026-11-22",
+      "published": 29
     },
     "anything box plus": {
       "title": "Anything Box Plus by TCC Magic",
@@ -2871,9 +2872,5 @@
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
     "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
   },
-  "last_issue": "2026-11-17",
-  "pending": {
-    "key": "card to bell",
-    "date": "2026-11-22"
-  }
+  "last_issue": "2026-11-22"
 }
