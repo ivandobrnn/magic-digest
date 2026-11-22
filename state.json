@@ -2136,7 +2136,8 @@
       "url": "https://ellusionist.com/products/purse-box",
       "image": "https://ellusionist.com/cdn/shop/files/224d0159-2ae0-487f-a35f-34db148f34fa.jpg?v=1795121315&width=2048",
       "video": "https://vimeo.com/1248371878",
-      "first_seen": "2026-11-22"
+      "first_seen": "2026-11-22",
+      "published": 30
     },
     "dragon s breath in a squeeze bottle 1 ounce": {
       "title": "Dragon's Breath in a Squeeze Bottle (1 ounce) by Ickle Pickle",
@@ -2872,9 +2873,5 @@
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
     "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
   },
-  "last_issue": "2026-11-22",
-  "pending": {
-    "key": "purse box",
-    "date": "2026-11-22"
-  }
+  "last_issue": "2026-11-22"
 }
