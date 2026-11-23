@@ -2510,6 +2510,42 @@
       "image": "https://deinparadies.ch/cdn/shop/files/Hoher-Zylinderhut-mit-Wildlederoptik.jpg?v=1793842312",
       "video": "",
       "first_seen": "2026-11-22"
+    },
+    "congrès rendez vous 2027 full pass 3 jours": {
+      "title": "CONGRÈS RENDEZ-VOUS 2027 - FULL PASS 3 JOURS",
+      "category": "Close-up и реквизит",
+      "source": "Magic Dream",
+      "url": "https://magicdream.fr/products/congres-rendez-vous-2027-full-pass-3-jours",
+      "image": "https://magicdream.fr/cdn/shop/files/AfficheevenementielleRendez-Vous2027_1200x1200.png?v=1794764005",
+      "video": "",
+      "first_seen": "2026-11-23"
+    },
+    "it s done with mirrors": {
+      "title": "It's Done With Mirrors by Ickle Pickle - Tricks",
+      "category": "Карточные фокусы",
+      "source": "Alternate Worlds Magic",
+      "url": "https://alternateworldsmagic.com/products/its-done-with-mirrors-by-ickle-pickle-tricks",
+      "image": "https://alternateworldsmagic.com/cdn/shop/files/63999-full.png?v=1795161964",
+      "video": "",
+      "first_seen": "2026-11-23"
+    },
+    "professional rope": {
+      "title": "Professional Rope by TCC - Trick",
+      "category": "Close-up и реквизит",
+      "source": "Alternate Worlds Magic",
+      "url": "https://alternateworldsmagic.com/products/professional-rope-by-tcc-trick",
+      "image": "https://alternateworldsmagic.com/cdn/shop/files/61180-full.png?v=1795161965",
+      "video": "",
+      "first_seen": "2026-11-23"
+    },
+    "materialize kd": {
+      "title": "MATERIALIZE (KD) by Anthony Vasquez & Twister Magic",
+      "category": "Карточные фокусы",
+      "source": "Alternate Worlds Magic",
+      "url": "https://alternateworldsmagic.com/products/materialize-kd-by-anthony-vasquez-twister-magic",
+      "image": "https://alternateworldsmagic.com/cdn/shop/files/72558-full.png?v=1795161958",
+      "video": "",
+      "first_seen": "2026-11-23"
     }
   },
   "urls": {
@@ -2883,7 +2919,12 @@
     "https://deinparadies.ch/products/knickerbockerhose-beige": "knickerbockerhose beige",
     "https://deinparadies.ch/products/prachtkrone-aus-metall-mit-schmucksteinen": "prachtkrone aus metall mit schmucksteinen",
     "https://deinparadies.ch/products/wichtelmutze-weiss": "wichtelmütze weiss",
-    "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik"
+    "https://deinparadies.ch/products/hoher-zylinderhut-mit-wildlederoptik": "hoher zylinderhut mit wildlederoptik",
+    "https://magicdream.fr/products/congres-rendez-vous-2027-full-pass-3-jours": "congrès rendez vous 2027 full pass 3 jours",
+    "https://alternateworldsmagic.com/products/blox-by-david-jonathan": "blox",
+    "https://alternateworldsmagic.com/products/its-done-with-mirrors-by-ickle-pickle-tricks": "it s done with mirrors",
+    "https://alternateworldsmagic.com/products/professional-rope-by-tcc-trick": "professional rope",
+    "https://alternateworldsmagic.com/products/materialize-kd-by-anthony-vasquez-twister-magic": "materialize kd"
   },
   "last_issue": "2026-11-22"
 }
