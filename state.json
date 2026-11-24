@@ -2546,6 +2546,60 @@
       "image": "https://alternateworldsmagic.com/cdn/shop/files/72558-full.png?v=1795161958",
       "video": "",
       "first_seen": "2026-11-23"
+    },
+    "flash marker": {
+      "title": "Flash Marker by Efimov Flash",
+      "category": "Close-up и реквизит",
+      "source": "Alakazam Magic",
+      "url": "https://alakazam.co.uk/products/flash-marker-by-efimov-flash",
+      "image": "https://alakazam.co.uk/cdn/shop/files/80466-full.png?v=1795536380",
+      "video": "https://vimeo.com/1249726783",
+      "first_seen": "2026-11-24"
+    },
+    "kids fly": {
+      "title": "Kids Fly by Craziest",
+      "category": "Close-up и реквизит",
+      "source": "Alakazam Magic",
+      "url": "https://alakazam.co.uk/products/kids-fly-by-craziest",
+      "image": "https://alakazam.co.uk/cdn/shop/files/79566-full.png?v=1795535180",
+      "video": "https://vimeo.com/1249727418",
+      "first_seen": "2026-11-24"
+    },
+    "fire to liberty": {
+      "title": "Fire to Liberty by Giacomo Bertini",
+      "category": "Close-up и реквизит",
+      "source": "Alakazam Magic",
+      "url": "https://alakazam.co.uk/products/fire-to-liberty-by-giacomo-bertini",
+      "image": "https://alakazam.co.uk/cdn/shop/files/81522-full.png?v=1795473979",
+      "video": "https://vimeo.com/1249492454",
+      "first_seen": "2026-11-24"
+    },
+    "distortion": {
+      "title": "Distortion by Dante and Ultrabello",
+      "category": "Ментализм",
+      "source": "52Magic",
+      "url": "https://www.52magic.com/Distortion-by-Dante-and-Ultrabello-p2197193.html",
+      "image": "https://ssl.images-ssl-mars.com/29748/2026/11/17/4/3/4359f5d2d7a42043.png",
+      "video": "https://ssl.images-ssl-mars.com/29748/2026/11/17/8/5/85486205fde9941c.mp4",
+      "first_seen": "2026-11-24"
+    },
+    "cabala milson worth steel ball through glass 088 estate": {
+      "title": "Cabala - Milson Worth - Steel Ball Through Glass - 088 Estate",
+      "category": "Close-up и реквизит",
+      "source": "Stevens Magic Emporium",
+      "url": "https://www.stevensmagic.global/products/cabala-milson-worth-steel-ball-through-glass-088-estate",
+      "image": "https://stevensmagic.com/cdn/shop/files/SteelBallThroughGlass-CabalaMilsonWorth2_1200x1200.png?v=1795508502",
+      "video": "",
+      "first_seen": "2026-11-24"
+    },
+    "scaandal is back red adrian vega crowell estate": {
+      "title": "SCAANDAL is Back RED - Adrian Vega - Crowell Estate",
+      "category": "Карточные фокусы",
+      "source": "Stevens Magic Emporium",
+      "url": "https://www.stevensmagic.global/products/scaandal-is-back-red-adrian-vega-crowell-estate",
+      "image": "https://stevensmagic.com/cdn/shop/files/80797-full_1200x1200.png?v=1786460958",
+      "video": "",
+      "first_seen": "2026-11-24"
     }
   },
   "urls": {
@@ -2924,7 +2978,24 @@
     "https://alternateworldsmagic.com/products/blox-by-david-jonathan": "blox",
     "https://alternateworldsmagic.com/products/its-done-with-mirrors-by-ickle-pickle-tricks": "it s done with mirrors",
     "https://alternateworldsmagic.com/products/professional-rope-by-tcc-trick": "professional rope",
-    "https://alternateworldsmagic.com/products/materialize-kd-by-anthony-vasquez-twister-magic": "materialize kd"
+    "https://alternateworldsmagic.com/products/materialize-kd-by-anthony-vasquez-twister-magic": "materialize kd",
+    "https://alakazam.co.uk/products/stop-light-paddle-brown-by-gentlemens-magic-1": "stop light paddle brown",
+    "https://alakazam.co.uk/products/flash-marker-by-efimov-flash": "flash marker",
+    "https://alakazam.co.uk/products/kids-fly-by-craziest": "kids fly",
+    "https://alakazam.co.uk/products/fire-to-liberty-by-giacomo-bertini": "fire to liberty",
+    "https://magicshop.co.uk/products/kids-fly-by-craziest": "kids fly",
+    "https://magicshop.co.uk/products/flash-marker-by-efimov-flash": "flash marker",
+    "https://magicshop.co.uk/products/fire-to-liberty-by-giacomo-bertini": "fire to liberty",
+    "https://brickandmortarmagic.com/products/kids-fly-by-craziest": "kids fly",
+    "https://brickandmortarmagic.com/products/flash-marker-by-efimov-flash": "flash marker",
+    "https://brickandmortarmagic.com/products/fire-to-liberty-by-giacomo-bertini": "fire to liberty",
+    "https://www.52magic.com/Outside-The-Box-by-Thomas-Badar-p2198451.html": "outside the box",
+    "https://www.52magic.com/Distortion-by-Dante-and-Ultrabello-p2197193.html": "distortion",
+    "https://www.stevensmagic.global/products/kids-fly-by-craziest": "kids fly",
+    "https://www.stevensmagic.global/products/flash-marker-by-efimov-flash": "flash marker",
+    "https://www.stevensmagic.global/products/cabala-milson-worth-steel-ball-through-glass-088-estate": "cabala milson worth steel ball through glass 088 estate",
+    "https://www.stevensmagic.global/products/fire-to-liberty-by-giacomo-bertini": "fire to liberty",
+    "https://www.stevensmagic.global/products/scaandal-is-back-red-adrian-vega-crowell-estate": "scaandal is back red adrian vega crowell estate"
   },
   "last_issue": "2026-11-22"
 }
