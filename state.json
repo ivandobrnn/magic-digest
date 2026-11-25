@@ -2647,7 +2647,8 @@
       "url": "https://alakazam.co.uk/products/magic-christmas-wreaths-by-alan-wong",
       "image": "https://alakazam.co.uk/cdn/shop/files/81539-full.png?v=1795621594",
       "video": "https://vimeo.com/1250065702",
-      "first_seen": "2026-11-25"
+      "first_seen": "2026-11-25",
+      "published": 49
     },
     "cell matrix": {
       "title": "Cell Matrix by Chris Philpott",
@@ -3198,9 +3199,5 @@
     "https://www.aprendemagia.cl/products/carta-viva-transformaciones-imposibles-en-tus-manos": "carta viva transformaciones imposibles en tus manos",
     "https://www.aprendemagia.cl/products/pluma-encantada-aparicion-visual-desde-una-luz": "pluma encantada reserva mayo aparición visual desde una luz"
   },
-  "last_issue": "2026-11-25",
-  "pending": {
-    "key": "magic christmas wreaths",
-    "date": "2026-11-25"
-  }
+  "last_issue": "2026-11-25"
 }
