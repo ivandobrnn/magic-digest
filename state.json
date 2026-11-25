@@ -2637,7 +2637,8 @@
       "url": "https://alakazam.co.uk/products/thaumaturge-by-brian-caswell",
       "image": "https://alakazam.co.uk/cdn/shop/files/81513-full.png?v=1795621629",
       "video": "https://vimeo.com/1250067412",
-      "first_seen": "2026-11-25"
+      "first_seen": "2026-11-25",
+      "published": 48
     },
     "magic christmas wreaths": {
       "title": "Magic Christmas Wreaths by Alan Wong",
@@ -3197,9 +3198,5 @@
     "https://www.aprendemagia.cl/products/carta-viva-transformaciones-imposibles-en-tus-manos": "carta viva transformaciones imposibles en tus manos",
     "https://www.aprendemagia.cl/products/pluma-encantada-aparicion-visual-desde-una-luz": "pluma encantada reserva mayo aparición visual desde una luz"
   },
-  "last_issue": "2026-11-25",
-  "pending": {
-    "key": "thaumaturge",
-    "date": "2026-11-25"
-  }
+  "last_issue": "2026-11-25"
 }
