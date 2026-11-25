@@ -2627,7 +2627,8 @@
       "url": "https://alakazam.co.uk/products/ancient-chinese-water-bowl-2-0-by-jt",
       "image": "https://alakazam.co.uk/cdn/shop/files/80637-full.png?v=1795623374",
       "video": "https://vimeo.com/1250085049",
-      "first_seen": "2026-11-25"
+      "first_seen": "2026-11-25",
+      "published": 46
     },
     "thaumaturge": {
       "title": "Thaumaturge by Brian Caswell",
@@ -3195,9 +3196,5 @@
     "https://www.aprendemagia.cl/products/carta-viva-transformaciones-imposibles-en-tus-manos": "carta viva transformaciones imposibles en tus manos",
     "https://www.aprendemagia.cl/products/pluma-encantada-aparicion-visual-desde-una-luz": "pluma encantada reserva mayo aparición visual desde una luz"
   },
-  "last_issue": "2026-11-25",
-  "pending": {
-    "key": "ancient chinese water bowl 2 0",
-    "date": "2026-11-25"
-  }
+  "last_issue": "2026-11-25"
 }
