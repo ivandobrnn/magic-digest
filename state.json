@@ -3194,5 +3194,9 @@
     "https://www.aprendemagia.cl/products/carta-viva-transformaciones-imposibles-en-tus-manos": "carta viva transformaciones imposibles en tus manos",
     "https://www.aprendemagia.cl/products/pluma-encantada-aparicion-visual-desde-una-luz": "pluma encantada reserva mayo aparición visual desde una luz"
   },
-  "last_issue": "2026-11-22"
+  "last_issue": "2026-11-22",
+  "pending": {
+    "key": "bubball",
+    "date": "2026-11-25"
+  }
 }
