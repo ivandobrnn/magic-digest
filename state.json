@@ -2618,7 +2618,8 @@
       "url": "https://tccmagic.com/products/mini-fusion-folio",
       "image": "https://tccmagic.com/cdn/shop/files/DSC00427_1200x1200.jpg?v=1795572509",
       "video": "https://www.youtube.com/watch?v=duRhSpLR4e4",
-      "first_seen": "2026-11-25"
+      "first_seen": "2026-11-25",
+      "published": 51
     },
     "ancient chinese water bowl 2 0": {
       "title": "Ancient Chinese Water Bowl 2.0 by JT",
@@ -3200,9 +3201,5 @@
     "https://www.aprendemagia.cl/products/carta-viva-transformaciones-imposibles-en-tus-manos": "carta viva transformaciones imposibles en tus manos",
     "https://www.aprendemagia.cl/products/pluma-encantada-aparicion-visual-desde-una-luz": "pluma encantada reserva mayo aparición visual desde una luz"
   },
-  "last_issue": "2026-11-25",
-  "pending": {
-    "key": "mini fusion folio",
-    "date": "2026-11-25"
-  }
+  "last_issue": "2026-11-25"
 }
