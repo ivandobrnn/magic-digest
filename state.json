@@ -2736,7 +2736,8 @@
       "url": "https://www.aprendemagia.cl/products/awe-prediction-la-prediccion-imposible-en-billetera",
       "image": "https://www.aprendemagia.cl/cdn/shop/files/00d229eb-988a-4de6-bce9-d609fed199bd.jpg?v=1780181056",
       "video": "",
-      "first_seen": "2026-11-25"
+      "first_seen": "2026-11-25",
+      "published": 47
     },
     "carta viva transformaciones imposibles en tus manos": {
       "title": "Carta Viva – Transformaciones Imposibles en tus Manos",
@@ -3196,9 +3197,5 @@
     "https://www.aprendemagia.cl/products/carta-viva-transformaciones-imposibles-en-tus-manos": "carta viva transformaciones imposibles en tus manos",
     "https://www.aprendemagia.cl/products/pluma-encantada-aparicion-visual-desde-una-luz": "pluma encantada reserva mayo aparición visual desde una luz"
   },
-  "last_issue": "2026-11-25",
-  "pending": {
-    "key": "awe prediction la predicción imposible en billetera",
-    "date": "2026-11-25"
-  }
+  "last_issue": "2026-11-25"
 }
