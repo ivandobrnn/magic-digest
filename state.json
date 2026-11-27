@@ -2868,6 +2868,87 @@
       "image": "https://img-va.myshopline.com/image/store/1665279799887/IARVEL-Gel-Pen-4355.jpg?w=1600&h=1600",
       "video": "",
       "first_seen": "2026-11-26"
+    },
+    "fabiolus magic geschenkgutschein": {
+      "title": "Fabiolus Magic Geschenkgutschein",
+      "category": "Close-up и реквизит",
+      "source": "Fabiolus Magic Store",
+      "url": "https://www.fabiolus-magic.de/products/fabiolus-magic-geschenkgutschein",
+      "image": "https://www.fabiolus-magic.de/cdn/shop/files/Fabiolus_Gutschein_Webseite.jpg?v=1732018600&width=2048",
+      "video": "",
+      "first_seen": "2026-11-27"
+    },
+    "revelio": {
+      "title": "Revelio by Magic's Express",
+      "category": "Close-up и реквизит",
+      "source": "Fabiolus Magic Store",
+      "url": "https://www.fabiolus-magic.de/products/revelio-by-magics-express",
+      "image": "https://www.fabiolus-magic.de/cdn/shop/files/revelio.jpg?v=1795100160&width=2048",
+      "video": "https://vimeo.com/1247726918",
+      "first_seen": "2026-11-27"
+    },
+    "magic sponge mr dong": {
+      "title": "Magic Sponge MR DONG (Red) by Murphy's Magic",
+      "category": "Close-up и реквизит",
+      "source": "Fabiolus Magic Store",
+      "url": "https://www.fabiolus-magic.de/products/magic-sponge-mr-dong-red-by-murphys-magic",
+      "image": "https://www.fabiolus-magic.de/cdn/shop/files/mr-dong.jpg?v=1795105870&width=2048",
+      "video": "https://vimeo.com/1247726882",
+      "first_seen": "2026-11-27"
+    },
+    "crazy washing machine": {
+      "title": "Crazy Washing Machine by George Iglesias and Twister Magic",
+      "category": "Close-up и реквизит",
+      "source": "Fabiolus Magic Store",
+      "url": "https://www.fabiolus-magic.de/products/crazy-washing-machine-by-george-iglesias-and-twister-magic",
+      "image": "https://www.fabiolus-magic.de/cdn/shop/files/crazy-washingmachine.jpg?v=1795103897&width=2048",
+      "video": "https://vimeo.com/1247726885",
+      "first_seen": "2026-11-27"
+    },
+    "cups and balls set aluminum": {
+      "title": "Cups and Balls Set Aluminum by Murphy's Magic",
+      "category": "Close-up и реквизит",
+      "source": "Bacon Magic",
+      "url": "https://baconmagic.shop/products/cups-and-balls-set-aluminum-by-murphys-magic",
+      "image": "https://baconmagic.shop/cdn/shop/files/78369-full.png?v=1795696717",
+      "video": "",
+      "first_seen": "2026-11-27"
+    },
+    "ultra prediction canvas": {
+      "title": "Ultra Prediction Canvas by Hyde",
+      "category": "Ментализм",
+      "source": "Bacon Magic",
+      "url": "https://baconmagic.shop/products/ultra-prediction-canvas-by-hyde",
+      "image": "https://baconmagic.shop/cdn/shop/files/preview_images/hqdefault_513a1024-aa88-4e70-a6ed-4594de853b72.jpg?v=1795591830",
+      "video": "",
+      "first_seen": "2026-11-27"
+    },
+    "stack trainer": {
+      "title": "Stack Trainer by Hyde",
+      "category": "Ментализм",
+      "source": "Bacon Magic",
+      "url": "https://baconmagic.shop/products/stack-trainer-by-hyde",
+      "image": "https://baconmagic.shop/cdn/shop/files/preview_images/hqdefault_a7333585-af52-49b2-a71a-56428ce553a8.jpg?v=1795577611",
+      "video": "",
+      "first_seen": "2026-11-27"
+    },
+    "bronzini s wallet": {
+      "title": "Bronzini's Wallet by Embajada Mágica",
+      "category": "Close-up и реквизит",
+      "source": "Bacon Magic",
+      "url": "https://baconmagic.shop/products/bronzinis-wallet-by-embajada-magica",
+      "image": "https://baconmagic.shop/cdn/shop/files/80974-full.png?v=1795512660",
+      "video": "",
+      "first_seen": "2026-11-27"
+    },
+    "growing card prediction": {
+      "title": "Growing Card Prediction by Wang Zhe",
+      "category": "Ментализм",
+      "source": "Bacon Magic",
+      "url": "https://baconmagic.shop/products/growing-card-prediction-by-wang-zhe",
+      "image": "https://baconmagic.shop/cdn/shop/files/preview_images/hqdefault_1f242c1c-24fd-4283-b09a-729ef470ad1a.jpg?v=1795418350",
+      "video": "",
+      "first_seen": "2026-11-27"
     }
   },
   "urls": {
@@ -3330,7 +3411,22 @@
     "https://www.52magic.com/The-Cooler-2-0-by-Christian-Engblom-p2199086.html": "the cooler 2 0",
     "https://www.52magic.com/Grandma-s-Forcing-Jar-p2198732.html": "grandma s forcing jar",
     "https://www.52magic.com/Linking-Dice-2-0-by-Nobuyuki-Nojima-%E2%80%93-Plastic-Box-Edition-p2198449.html": "linking dice 2 0",
-    "https://www.iarvelmagic.com/products/iarvelgelpen": "iarvel gel pen"
+    "https://www.iarvelmagic.com/products/iarvelgelpen": "iarvel gel pen",
+    "https://www.fabiolus-magic.de/products/fabiolus-magic-geschenkgutschein": "fabiolus magic geschenkgutschein",
+    "https://www.fabiolus-magic.de/products/revelio-by-magics-express": "revelio",
+    "https://www.fabiolus-magic.de/products/mint-condition-by-joel-dickinson": "mint condition",
+    "https://www.fabiolus-magic.de/products/magic-sponge-mr-dong-red-by-murphys-magic": "magic sponge mr dong",
+    "https://www.fabiolus-magic.de/products/crazy-washing-machine-by-george-iglesias-and-twister-magic": "crazy washing machine",
+    "https://baconmagic.shop/products/cups-and-balls-set-aluminum-by-murphys-magic": "cups and balls set aluminum",
+    "https://baconmagic.shop/products/ultra-prediction-canvas-by-hyde": "ultra prediction canvas",
+    "https://baconmagic.shop/products/stack-trainer-by-hyde": "stack trainer",
+    "https://baconmagic.shop/products/bronzinis-wallet-by-embajada-magica": "bronzini s wallet",
+    "https://baconmagic.shop/products/growing-card-prediction-by-wang-zhe": "growing card prediction",
+    "https://magiccastle.com.sg/products/dmc-acorns-v1": "dmc acorns v1",
+    "https://magiccastle.com.sg/products/the-bat-by-alan-wong-takuya": "the bat",
+    "https://magiccastle.com.sg/products/cookie-monster-by-bizzaro-and-presented-by-hanson-chien": "cookie monster",
+    "https://magiccastle.com.sg/products/the-milk-casino-luxury-limited-collection-set": "the milk casino luxury limited collection set",
+    "https://magiccastle.com.sg/products/fultons-november-playing-cards": "fultons november playing cards"
   },
   "last_issue": "2026-11-25"
 }
